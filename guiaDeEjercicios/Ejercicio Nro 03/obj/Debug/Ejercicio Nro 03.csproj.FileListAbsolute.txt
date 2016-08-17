@@ -1,0 +1,6 @@
+C:\Users\Agustin.Prado\Downloads\PROG\LAB II\Clase 1\guiaDeEjercicios\Ejercicio Nro 03\bin\Debug\Ejercicio Nro 03.exe.config
+C:\Users\Agustin.Prado\Downloads\PROG\LAB II\Clase 1\guiaDeEjercicios\Ejercicio Nro 03\bin\Debug\Ejercicio Nro 03.exe
+C:\Users\Agustin.Prado\Downloads\PROG\LAB II\Clase 1\guiaDeEjercicios\Ejercicio Nro 03\bin\Debug\Ejercicio Nro 03.pdb
+C:\Users\Agustin.Prado\Downloads\PROG\LAB II\Clase 1\guiaDeEjercicios\Ejercicio Nro 03\obj\Debug\Ejercicio Nro 03.csprojResolveAssemblyReference.cache
+C:\Users\Agustin.Prado\Downloads\PROG\LAB II\Clase 1\guiaDeEjercicios\Ejercicio Nro 03\obj\Debug\Ejercicio Nro 03.exe
+C:\Users\Agustin.Prado\Downloads\PROG\LAB II\Clase 1\guiaDeEjercicios\Ejercicio Nro 03\obj\Debug\Ejercicio Nro 03.pdb

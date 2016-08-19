@@ -1,0 +1,5 @@
+C:\Users\Agustín\Documents\programacion2\guiaDeEjercicios\Ejercicio Nro 05\bin\Debug\Ejercicio Nro 05.exe.config
+C:\Users\Agustín\Documents\programacion2\guiaDeEjercicios\Ejercicio Nro 05\bin\Debug\Ejercicio Nro 05.exe
+C:\Users\Agustín\Documents\programacion2\guiaDeEjercicios\Ejercicio Nro 05\bin\Debug\Ejercicio Nro 05.pdb
+C:\Users\Agustín\Documents\programacion2\guiaDeEjercicios\Ejercicio Nro 05\obj\Debug\Ejercicio Nro 05.exe
+C:\Users\Agustín\Documents\programacion2\guiaDeEjercicios\Ejercicio Nro 05\obj\Debug\Ejercicio Nro 05.pdb

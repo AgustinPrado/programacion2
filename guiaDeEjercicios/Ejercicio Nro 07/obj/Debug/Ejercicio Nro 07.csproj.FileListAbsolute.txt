@@ -1,0 +1,8 @@
+C:\Users\Agustín\Documents\programacion2\guiaDeEjercicios\Ejercicio Nro 07\bin\Debug\Ejercicio Nro 07.exe.config
+C:\Users\Agustín\Documents\programacion2\guiaDeEjercicios\Ejercicio Nro 07\obj\Debug\Ejercicio Nro 07.csprojResolveAssemblyReference.cache
+C:\Users\Agustín\Documents\programacion2\guiaDeEjercicios\Ejercicio Nro 07\bin\Debug\Ejercicio Nro 07.exe
+C:\Users\Agustín\Documents\programacion2\guiaDeEjercicios\Ejercicio Nro 07\bin\Debug\Ejercicio Nro 07.pdb
+C:\Users\Agustín\Documents\programacion2\guiaDeEjercicios\Ejercicio Nro 07\bin\Debug\Ejercicio Nro 06.exe
+C:\Users\Agustín\Documents\programacion2\guiaDeEjercicios\Ejercicio Nro 07\bin\Debug\Ejercicio Nro 06.pdb
+C:\Users\Agustín\Documents\programacion2\guiaDeEjercicios\Ejercicio Nro 07\obj\Debug\Ejercicio Nro 07.exe
+C:\Users\Agustín\Documents\programacion2\guiaDeEjercicios\Ejercicio Nro 07\obj\Debug\Ejercicio Nro 07.pdb

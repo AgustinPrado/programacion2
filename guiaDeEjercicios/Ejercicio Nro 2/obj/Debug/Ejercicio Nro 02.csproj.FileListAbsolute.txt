@@ -4,3 +4,9 @@ C:\Users\Agustin.Prado\Downloads\PROG\LAB II\Clase 1\guiaDeEjercicios\Ejercicio 
 C:\Users\Agustin.Prado\Downloads\PROG\LAB II\Clase 1\guiaDeEjercicios\Ejercicio Nro 2\obj\Debug\Ejercicio Nro 02.csprojResolveAssemblyReference.cache
 C:\Users\Agustin.Prado\Downloads\PROG\LAB II\Clase 1\guiaDeEjercicios\Ejercicio Nro 2\obj\Debug\Ejercicio Nro 2.exe
 C:\Users\Agustin.Prado\Downloads\PROG\LAB II\Clase 1\guiaDeEjercicios\Ejercicio Nro 2\obj\Debug\Ejercicio Nro 2.pdb
+C:\Users\Agustín\Documents\programacion2\guiaDeEjercicios\Ejercicio Nro 2\bin\Debug\Ejercicio Nro 2.exe.config
+C:\Users\Agustín\Documents\programacion2\guiaDeEjercicios\Ejercicio Nro 2\bin\Debug\Ejercicio Nro 2.exe
+C:\Users\Agustín\Documents\programacion2\guiaDeEjercicios\Ejercicio Nro 2\bin\Debug\Ejercicio Nro 2.pdb
+C:\Users\Agustín\Documents\programacion2\guiaDeEjercicios\Ejercicio Nro 2\obj\Debug\Ejercicio Nro 02.csprojResolveAssemblyReference.cache
+C:\Users\Agustín\Documents\programacion2\guiaDeEjercicios\Ejercicio Nro 2\obj\Debug\Ejercicio Nro 2.exe
+C:\Users\Agustín\Documents\programacion2\guiaDeEjercicios\Ejercicio Nro 2\obj\Debug\Ejercicio Nro 2.pdb

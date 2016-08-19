@@ -20,6 +20,7 @@ namespace ejercicio1
                 acumulador = int.Parse(Console.ReadLine());
             }
 
+            
 
             Console.Clear();
             Console.Write("El acumulado es: " + acumulador);

@@ -10,6 +10,7 @@ namespace Ejercicio_Nro_04
     {
         static void Main()
         {
+            Console.Title = "Ejercicio Nro 04";
             int contador;
             int numero = 1;
             int acumulador = 0;

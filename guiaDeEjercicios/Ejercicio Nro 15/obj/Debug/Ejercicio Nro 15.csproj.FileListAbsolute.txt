@@ -1,0 +1,2 @@
+C:\Users\Agustin.Prado\Downloads\programacion2-master\programacion2-master\guiaDeEjercicios\Ejercicio Nro 15\bin\Debug\Ejercicio Nro 15.exe.config
+C:\Users\Agustin.Prado\Downloads\programacion2-master\programacion2-master\guiaDeEjercicios\Ejercicio Nro 15\obj\Debug\Ejercicio Nro 15.csprojResolveAssemblyReference.cache

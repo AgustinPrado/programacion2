@@ -1,0 +1,6 @@
+C:\Users\Agustin.Prado\Downloads\programacion2-master\programacion2-master\guiaDeEjercicios\Ejercicio Nro 14\bin\Debug\Ejercicio Nro 14.exe.config
+C:\Users\Agustin.Prado\Downloads\programacion2-master\programacion2-master\guiaDeEjercicios\Ejercicio Nro 14\bin\Debug\Ejercicio Nro 14.exe
+C:\Users\Agustin.Prado\Downloads\programacion2-master\programacion2-master\guiaDeEjercicios\Ejercicio Nro 14\bin\Debug\Ejercicio Nro 14.pdb
+C:\Users\Agustin.Prado\Downloads\programacion2-master\programacion2-master\guiaDeEjercicios\Ejercicio Nro 14\obj\Debug\Ejercicio Nro 14.csprojResolveAssemblyReference.cache
+C:\Users\Agustin.Prado\Downloads\programacion2-master\programacion2-master\guiaDeEjercicios\Ejercicio Nro 14\obj\Debug\Ejercicio Nro 14.exe
+C:\Users\Agustin.Prado\Downloads\programacion2-master\programacion2-master\guiaDeEjercicios\Ejercicio Nro 14\obj\Debug\Ejercicio Nro 14.pdb

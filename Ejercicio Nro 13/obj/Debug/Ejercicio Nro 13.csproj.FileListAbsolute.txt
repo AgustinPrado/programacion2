@@ -1,0 +1,8 @@
+C:\Users\Agustín\Documents\programacion2\guiaDeEjercicios\Ejercicio Nro 13\bin\Debug\Ejercicio Nro 13.exe.config
+C:\Users\Agustín\Documents\programacion2\guiaDeEjercicios\Ejercicio Nro 13\bin\Debug\Ejercicio Nro 13.exe
+C:\Users\Agustín\Documents\programacion2\guiaDeEjercicios\Ejercicio Nro 13\bin\Debug\Ejercicio Nro 13.pdb
+C:\Users\Agustín\Documents\programacion2\guiaDeEjercicios\Ejercicio Nro 13\obj\Debug\Ejercicio Nro 13.exe
+C:\Users\Agustín\Documents\programacion2\guiaDeEjercicios\Ejercicio Nro 13\obj\Debug\Ejercicio Nro 13.pdb
+C:\Users\Agustin.Prado\Downloads\programacion2-master\programacion2-master\guiaDeEjercicios\Ejercicio Nro 13\bin\Debug\Ejercicio Nro 13.exe.config
+C:\Users\Agustin.Prado\Downloads\programacion2-master\programacion2-master\guiaDeEjercicios\Ejercicio Nro 13\obj\Debug\Ejercicio Nro 13.exe
+C:\Users\Agustin.Prado\Downloads\programacion2-master\programacion2-master\guiaDeEjercicios\Ejercicio Nro 13\obj\Debug\Ejercicio Nro 13.pdb

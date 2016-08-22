@@ -4,3 +4,9 @@ C:\Users\Agustín\Documents\programacion2\guiaDeEjercicios\Ejercicio Nro 12\bin\
 C:\Users\Agustín\Documents\programacion2\guiaDeEjercicios\Ejercicio Nro 12\obj\Debug\Ejercicio Nro 12.csprojResolveAssemblyReference.cache
 C:\Users\Agustín\Documents\programacion2\guiaDeEjercicios\Ejercicio Nro 12\obj\Debug\Ejercicio Nro 12.exe
 C:\Users\Agustín\Documents\programacion2\guiaDeEjercicios\Ejercicio Nro 12\obj\Debug\Ejercicio Nro 12.pdb
+C:\Users\Agustin.Prado\Downloads\programacion2-master\programacion2-master\guiaDeEjercicios\Ejercicio Nro 12\bin\Debug\Ejercicio Nro 12.exe.config
+C:\Users\Agustin.Prado\Downloads\programacion2-master\programacion2-master\guiaDeEjercicios\Ejercicio Nro 12\bin\Debug\Ejercicio Nro 12.exe
+C:\Users\Agustin.Prado\Downloads\programacion2-master\programacion2-master\guiaDeEjercicios\Ejercicio Nro 12\bin\Debug\Ejercicio Nro 12.pdb
+C:\Users\Agustin.Prado\Downloads\programacion2-master\programacion2-master\guiaDeEjercicios\Ejercicio Nro 12\obj\Debug\Ejercicio Nro 12.csprojResolveAssemblyReference.cache
+C:\Users\Agustin.Prado\Downloads\programacion2-master\programacion2-master\guiaDeEjercicios\Ejercicio Nro 12\obj\Debug\Ejercicio Nro 12.exe
+C:\Users\Agustin.Prado\Downloads\programacion2-master\programacion2-master\guiaDeEjercicios\Ejercicio Nro 12\obj\Debug\Ejercicio Nro 12.pdb

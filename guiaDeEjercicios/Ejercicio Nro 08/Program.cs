@@ -36,7 +36,7 @@ namespace Ejercicio_Nro_08
 
             Console.Clear();
 
-            Console.WriteLine("{0, -20} | {1, -4} | {2, -8} | {3, -11} | {4, -11} | {5, -11}",
+            Console.WriteLine("{0, -19} | {1, -4} | {2, -8} | {3, -11} | {4, -11} | {5}",
                 "Nombre",
                 "Ant.",
                 "$/H",
@@ -46,7 +46,7 @@ namespace Ejercicio_Nro_08
 
             for (contador = 0; contador < cantidad; contador++)
             {
-                Console.WriteLine("{0, -20} | {1, -4} | {2, -4:C2} | {3, -8:C2} | {4, -8:C2} | {5:C2}",
+                Console.WriteLine("{0, -19} | {1, -4} | {2, -8:C2} | {3, -11:C2} | {4, -11:C2} | {5:C2}",
                     empleado[contador].Nombre,
                     empleado[contador].Antiguedad,
                     empleado[contador].ValorHora,

@@ -13,3 +13,6 @@ C:\Users\Agustín\Documents\programacion2\guiaDeEjercicios\Ejercicio Nro 01\bin\
 C:\Users\Agustín\Documents\programacion2\guiaDeEjercicios\Ejercicio Nro 01\obj\Debug\Ejercicio Nro 01.csprojResolveAssemblyReference.cache
 C:\Users\Agustín\Documents\programacion2\guiaDeEjercicios\Ejercicio Nro 01\obj\Debug\Ejercicio Nro 01.exe
 C:\Users\Agustín\Documents\programacion2\guiaDeEjercicios\Ejercicio Nro 01\obj\Debug\Ejercicio Nro 01.pdb
+D:\Prado\programacion2\guiaDeEjercicios\Ejercicio Nro 01\bin\Debug\Ejercicio Nro 01.exe.config
+D:\Prado\programacion2\guiaDeEjercicios\Ejercicio Nro 01\obj\Debug\Ejercicio Nro 01.exe
+D:\Prado\programacion2\guiaDeEjercicios\Ejercicio Nro 01\obj\Debug\Ejercicio Nro 01.pdb

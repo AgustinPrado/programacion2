@@ -15,12 +15,13 @@ namespace ejercicio4
         public Rueda TI;
         public Rueda TD;
         private int KilometrosRecorridos;
+        private int TiempoDemorado;
         public static int contadorDeObjetos;
         private static Random randomMarcas; // es unico para esta clase.
 
         public Auto()
         {
-            this.Fabricante = (EFabricante)(randomMarcas.Next(0, 3));
+            this.Fabricante = (EFabricante)(Auto.randomMarcas.Next(0, 3));
             this.DI = new Rueda();
             this.DD = new Rueda();
             this.TI = new Rueda();
@@ -32,6 +33,7 @@ namespace ejercicio4
         // un constructor estatico no puede ser public. Se ejecuta en la primer llamada a la clase que haga
         // tiene que tener atributos estaticos
         // puedo hacerlo para inicializar variables estaticas, como contador de objetos creados
+        // no se lo puede sobrecargar
         static Auto()
         {
             Auto.contadorDeObjetos = 0;
@@ -53,11 +55,27 @@ namespace ejercicio4
         public void VolverACero()
         {
             this.KilometrosRecorridos = 0;
+            this.TiempoDemorado = 0;
         }
 
         public void AgregarKilometro(int kilometros)
         {
             this.KilometrosRecorridos += kilometros;
+        }
+
+        public void AgregarTiempo(int tiempo)
+        {
+            this.TiempoDemorado += tiempo;
+        }
+
+        public int ObtenerKilometros()
+        {
+            return this.KilometrosRecorridos;
+        }
+
+        public int ObtenerTiempo()
+        {
+            return this.TiempoDemorado;
         }
     }
 }

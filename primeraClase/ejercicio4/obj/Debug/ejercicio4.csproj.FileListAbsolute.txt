@@ -10,3 +10,9 @@ D:\Prado\programacion2\primeraClase\ejercicio4\obj\Debug\ejercicio4.pdb
 D:\Prado\programacion2\primeraClase\ejercicio4\bin\Debug\ejercicio4.exe
 D:\Prado\programacion2\primeraClase\ejercicio4\bin\Debug\ejercicio4.pdb
 D:\Prado\programacion2\primeraClase\ejercicio4\obj\Debug\ejercicio4.csprojResolveAssemblyReference.cache
+C:\Users\Agustín\Documents\programacion2\primeraClase\ejercicio4\bin\Debug\ejercicio4.exe.config
+C:\Users\Agustín\Documents\programacion2\primeraClase\ejercicio4\obj\Debug\ejercicio4.exe
+C:\Users\Agustín\Documents\programacion2\primeraClase\ejercicio4\obj\Debug\ejercicio4.pdb
+C:\Users\Agustín\Documents\programacion2\primeraClase\ejercicio4\bin\Debug\ejercicio4.exe
+C:\Users\Agustín\Documents\programacion2\primeraClase\ejercicio4\bin\Debug\ejercicio4.pdb
+C:\Users\Agustín\Documents\programacion2\primeraClase\ejercicio4\obj\Debug\ejercicio4.csprojResolveAssemblyReference.cache

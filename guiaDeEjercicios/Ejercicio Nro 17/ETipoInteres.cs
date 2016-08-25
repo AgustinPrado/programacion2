@@ -8,6 +8,7 @@ namespace Ejercicio_Nro_17
 {
     public enum ETipoInteres
     {
+        VACIO = -1,
         TIN,
         TAE,
         TIR

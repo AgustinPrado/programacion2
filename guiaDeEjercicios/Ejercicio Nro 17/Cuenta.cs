@@ -36,7 +36,7 @@ namespace Ejercicio_Nro_17
         public void setNombre(string nombre)
         {
             if(nombre.Length == 0)
-                this._nombre = null;
+                this._nombre = ETipoInteres.VACIO.ToString();
             else
                 this._nombre = nombre;
         }
@@ -46,17 +46,23 @@ namespace Ejercicio_Nro_17
             if (nroCuenta > 0)
                 this._nroCuenta = nroCuenta;
             else
-                this._nroCuenta = 0;
+                this._nroCuenta = (long)ETipoInteres.VACIO;
         }
 
         public void setSaldo(double saldo)
         {
-            this._saldo = saldo;
+            if (saldo > 0)
+                this._saldo = saldo;
+            else
+                this._saldo = (double)ETipoInteres.VACIO;
         }
 
         public void setTipoInteres(ETipoInteres tipoInteres)
         {
-            this._tipoInteres = tipoInteres;
+            if ((tipoInteres <= ETipoInteres.TIR) && (tipoInteres >= ETipoInteres.TIN))
+                this._tipoInteres = tipoInteres;
+            else
+                this._tipoInteres = ETipoInteres.VACIO;
         }
     }
 }

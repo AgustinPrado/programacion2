@@ -24,7 +24,12 @@ namespace ejercicio4
             this.auto4 = new Auto();
             this.auto5 = new Auto();
             this.auto6 = new Auto();
-            random = new Random();
+            
+        }
+
+        static Carrera()
+        {
+            Carrera.random = new Random();
         }
 
         // ingresar un tiempo en minutos y por cada minuto va a ser una vuelta en un for. Por cada vuelta, los autos tienen

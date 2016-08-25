@@ -1,0 +1,6 @@
+C:\Users\Agustín\Documents\programacion2\guiaDeEjercicios\Ejercicio Nro 19\bin\Debug\Ejercicio Nro 19.exe.config
+C:\Users\Agustín\Documents\programacion2\guiaDeEjercicios\Ejercicio Nro 19\bin\Debug\Ejercicio Nro 19.exe
+C:\Users\Agustín\Documents\programacion2\guiaDeEjercicios\Ejercicio Nro 19\bin\Debug\Ejercicio Nro 19.pdb
+C:\Users\Agustín\Documents\programacion2\guiaDeEjercicios\Ejercicio Nro 19\obj\Debug\Ejercicio Nro 19.csprojResolveAssemblyReference.cache
+C:\Users\Agustín\Documents\programacion2\guiaDeEjercicios\Ejercicio Nro 19\obj\Debug\Ejercicio Nro 19.exe
+C:\Users\Agustín\Documents\programacion2\guiaDeEjercicios\Ejercicio Nro 19\obj\Debug\Ejercicio Nro 19.pdb

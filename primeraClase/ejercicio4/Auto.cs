@@ -14,8 +14,8 @@ namespace ejercicio4
         public Rueda DD;
         public Rueda TI;
         public Rueda TD;
-        private int KilometrosRecorridos;
-        private int TiempoDemorado;
+        private Kilometro KilometrosRecorridos;
+        private Tiempo TiempoDemorado;
         public static int contadorDeObjetos;
         private static Random randomMarcas; // es unico para esta clase.
 
@@ -26,6 +26,8 @@ namespace ejercicio4
             this.DD = new Rueda();
             this.TI = new Rueda();
             this.TD = new Rueda();
+            this.KilometrosRecorridos = 0;
+            this.TiempoDemorado = 0;
 
             Auto.contadorDeObjetos++;
         }
@@ -58,6 +60,8 @@ namespace ejercicio4
             this.TiempoDemorado = 0;
         }
 
+        /*
+         * DEPRECATED: POR SOBRECARGA DE METODOS
         public void AgregarKilometro(int kilometros)
         {
             this.KilometrosRecorridos += kilometros;
@@ -67,15 +71,26 @@ namespace ejercicio4
         {
             this.TiempoDemorado += tiempo;
         }
-
-        public int ObtenerKilometros()
+        */
+        
+        public Kilometro ObtenerKilometros()
         {
             return this.KilometrosRecorridos;
         }
 
-        public int ObtenerTiempo()
+        public Tiempo ObtenerTiempo()
         {
             return this.TiempoDemorado;
+        }
+
+        public void Agregar(Tiempo tiempo)
+        {
+            this.TiempoDemorado = this.TiempoDemorado + tiempo;
+        }
+
+        public void Agregar(Kilometro kilometro)
+        {
+            this.KilometrosRecorridos = this.KilometrosRecorridos + kilometro;
         }
     }
 }

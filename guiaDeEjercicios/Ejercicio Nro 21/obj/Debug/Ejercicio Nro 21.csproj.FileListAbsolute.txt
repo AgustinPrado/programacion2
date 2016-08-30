@@ -3,3 +3,6 @@ C:\Users\Agustín\Documents\programacion2\guiaDeEjercicios\Ejercicio Nro 21\bin\
 C:\Users\Agustín\Documents\programacion2\guiaDeEjercicios\Ejercicio Nro 21\bin\Debug\Ejercicio Nro 21.pdb
 C:\Users\Agustín\Documents\programacion2\guiaDeEjercicios\Ejercicio Nro 21\obj\Debug\Ejercicio Nro 21.exe
 C:\Users\Agustín\Documents\programacion2\guiaDeEjercicios\Ejercicio Nro 21\obj\Debug\Ejercicio Nro 21.pdb
+D:\Prado\programacion2\guiaDeEjercicios\Ejercicio Nro 21\bin\Debug\Ejercicio Nro 21.exe.config
+D:\Prado\programacion2\guiaDeEjercicios\Ejercicio Nro 21\obj\Debug\Ejercicio Nro 21.exe
+D:\Prado\programacion2\guiaDeEjercicios\Ejercicio Nro 21\obj\Debug\Ejercicio Nro 21.pdb

@@ -5,3 +5,5 @@ C:\Users\Agustín\Documents\programacion2\guiaDeEjercicios\Ejercicio Nro 17\bin\
 C:\Users\Agustín\Documents\programacion2\guiaDeEjercicios\Ejercicio Nro 17\obj\Debug\Ejercicio Nro 17.csprojResolveAssemblyReference.cache
 C:\Users\Agustín\Documents\programacion2\guiaDeEjercicios\Ejercicio Nro 17\obj\Debug\Ejercicio Nro 17.exe
 C:\Users\Agustín\Documents\programacion2\guiaDeEjercicios\Ejercicio Nro 17\obj\Debug\Ejercicio Nro 17.pdb
+D:\Prado\programacion2\guiaDeEjercicios\Ejercicio Nro 17\obj\Debug\Ejercicio Nro 17.exe
+D:\Prado\programacion2\guiaDeEjercicios\Ejercicio Nro 17\obj\Debug\Ejercicio Nro 17.pdb

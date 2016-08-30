@@ -8,29 +8,98 @@ namespace ejercicio4
 {
     public class Tiempo
     {
-        public int Cantidad;
+        private int _cantidad;
 
-        public Tiempo(int cantidad)
+        private Tiempo(int cantidad)
         {
-            this.Cantidad = cantidad;
+            this._cantidad = cantidad;
         }
 
+        /*
         public static Tiempo Sumar(Tiempo tiempoAux, int valor)
         {
             tiempoAux.Cantidad = tiempoAux.Cantidad + valor;
 
-
-
             return tiempoAux;
         }
+         */
 
         // sobrecargo el operador +
         public static Tiempo operator +(Tiempo tiempoAux, int valor)
         {
-            tiempoAux.Cantidad = tiempoAux.Cantidad + valor;
+            tiempoAux._cantidad = tiempoAux._cantidad + valor;
 
-            
             return tiempoAux;
         }
+
+        public static Tiempo operator +(Tiempo tiempo1, Tiempo tiempo2)
+        {
+            return (tiempo1 + tiempo2._cantidad);
+        }
+
+        public static Tiempo operator -(Tiempo tiempoAux, int valor)
+        {
+            tiempoAux._cantidad = tiempoAux._cantidad - valor;
+
+            return tiempoAux;
+        }
+
+        public static Tiempo operator -(Tiempo tiempo1, Tiempo tiempo2)
+        {
+            return (tiempo1 - tiempo2._cantidad);
+        }
+
+        public static bool operator ==(Tiempo tiempoAux, int valor)
+        {
+            return (tiempoAux._cantidad == valor);
+        }
+
+        public static bool operator ==(Tiempo tiempo1, Tiempo tiempo2)
+        {
+            return (tiempo1 == tiempo2._cantidad);
+        }
+
+        public static bool operator !=(Tiempo tiempoAux, int valor)
+        {
+            return !(tiempoAux == valor);
+        }
+
+        public static bool operator !=(Tiempo tiempo1, Tiempo tiempo2)
+        {
+            return !(tiempo1 == tiempo2);
+        }
+
+        public static bool operator <(Tiempo tiempoAux, int valor)
+        {
+            return (tiempoAux._cantidad < valor);
+        }
+
+        public static bool operator <(Tiempo tiempo1, Tiempo tiempo2)
+        {
+            return (tiempo1 < tiempo2._cantidad);
+        }
+
+        public static bool operator >(Tiempo tiempoAux, int valor)
+        {
+            return (tiempoAux._cantidad > valor);
+        }
+
+        public static bool operator >(Tiempo tiempo1, Tiempo tiempo2)
+        {
+            return (tiempo1 > tiempo2._cantidad);
+        }
+
+        public static implicit operator Tiempo(int numero)
+        {
+            return new Tiempo(numero);
+        }
+
+        public static explicit operator int(Tiempo tiempo)
+        {
+            return tiempo._cantidad;
+        }
+
+       
+
     }
 }

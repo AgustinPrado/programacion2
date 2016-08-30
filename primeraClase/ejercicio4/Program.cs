@@ -31,8 +31,8 @@ namespace ejercicio4
             Auto nuevoAuto3 = new Auto();
             Auto nuevoAuto4 = new Auto();
 
-            Tiempo tiempo = new Tiempo(5);
-            Kilometro kilometro = new Kilometro(9);
+            Tiempo tiempo = 5;
+            Kilometro kilometro = 9;
 
             /*
             Console.WriteLine("{0} {1} {2} {3}",
@@ -53,9 +53,21 @@ namespace ejercicio4
 
             tiempo = tiempo + 10; // funciona porque esta sobrecargado el operador
 
-            Console.WriteLine("El tiempo es: " + tiempo.Cantidad);
+            Console.WriteLine("El tiempo es: " + (int)tiempo);
 
             Console.ReadKey();
+        
         }
     }
 }
+
+/*
+ * 30/08
+ * Casteo implicito y explicito.
+ * (int) casteo explicito.
+ * si le pongo implicit funciona de las dos formas
+ * public static implicit operator Tiempo(int numero)
+ * 
+ * si no se construye el objeto esta en null
+ * octaviovillegas/constructores-metedos
+*/

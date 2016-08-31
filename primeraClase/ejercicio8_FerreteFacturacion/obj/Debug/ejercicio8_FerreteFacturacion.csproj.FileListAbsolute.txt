@@ -1,0 +1,9 @@
+D:\Prado\programacion2\primeraClase\ejercicio8_FerreteFacturacion\bin\Debug\ejercicio8_FerreteFacturacion.exe.config
+D:\Prado\programacion2\primeraClase\ejercicio8_FerreteFacturacion\bin\Debug\ejercicio8_FerreteFacturacion.exe
+D:\Prado\programacion2\primeraClase\ejercicio8_FerreteFacturacion\bin\Debug\ejercicio8_FerreteFacturacion.pdb
+D:\Prado\programacion2\primeraClase\ejercicio8_FerreteFacturacion\obj\Debug\ejercicio8_FerreteFacturacion.Form1.resources
+D:\Prado\programacion2\primeraClase\ejercicio8_FerreteFacturacion\obj\Debug\ejercicio8_FerreteFacturacion.Properties.Resources.resources
+D:\Prado\programacion2\primeraClase\ejercicio8_FerreteFacturacion\obj\Debug\ejercicio8_FerreteFacturacion.csproj.GenerateResource.Cache
+D:\Prado\programacion2\primeraClase\ejercicio8_FerreteFacturacion\obj\Debug\ejercicio8_FerreteFacturacion.exe
+D:\Prado\programacion2\primeraClase\ejercicio8_FerreteFacturacion\obj\Debug\ejercicio8_FerreteFacturacion.pdb
+D:\Prado\programacion2\primeraClase\ejercicio8_FerreteFacturacion\obj\Debug\ejercicio8_FerreteFacturacion.csprojResolveAssemblyReference.cache

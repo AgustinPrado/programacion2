@@ -1,0 +1,9 @@
+D:\Prado\programacion2\primeraClase\ejercicio7\bin\Debug\ejercicio7.exe.config
+D:\Prado\programacion2\primeraClase\ejercicio7\bin\Debug\ejercicio7.exe
+D:\Prado\programacion2\primeraClase\ejercicio7\bin\Debug\ejercicio7.pdb
+D:\Prado\programacion2\primeraClase\ejercicio7\obj\Debug\ejercicio7.csprojResolveAssemblyReference.cache
+D:\Prado\programacion2\primeraClase\ejercicio7\obj\Debug\ejercicio7.Properties.Resources.resources
+D:\Prado\programacion2\primeraClase\ejercicio7\obj\Debug\ejercicio7.csproj.GenerateResource.Cache
+D:\Prado\programacion2\primeraClase\ejercicio7\obj\Debug\ejercicio7.exe
+D:\Prado\programacion2\primeraClase\ejercicio7\obj\Debug\ejercicio7.pdb
+D:\Prado\programacion2\primeraClase\ejercicio7\obj\Debug\ejercicio7.Form1.resources

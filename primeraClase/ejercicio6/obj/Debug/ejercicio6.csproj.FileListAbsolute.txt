@@ -1,0 +1,6 @@
+D:\Prado\programacion2\primeraClase\ejercicio6\bin\Debug\ejercicio6.exe.config
+D:\Prado\programacion2\primeraClase\ejercicio6\bin\Debug\ejercicio6.exe
+D:\Prado\programacion2\primeraClase\ejercicio6\bin\Debug\ejercicio6.pdb
+D:\Prado\programacion2\primeraClase\ejercicio6\obj\Debug\ejercicio6.csprojResolveAssemblyReference.cache
+D:\Prado\programacion2\primeraClase\ejercicio6\obj\Debug\ejercicio6.exe
+D:\Prado\programacion2\primeraClase\ejercicio6\obj\Debug\ejercicio6.pdb

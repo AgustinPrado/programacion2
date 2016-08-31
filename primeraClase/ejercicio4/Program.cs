@@ -46,7 +46,7 @@ namespace ejercicio4
             // carrera.PorTiempo(5);
 
             carrera.CorrerCarrera(tiempo);
-
+            
             carrera.CorrerCarrera(kilometro);
 
             carrera.CorrerCarrera(tiempo);

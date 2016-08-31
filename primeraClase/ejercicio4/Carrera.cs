@@ -37,7 +37,7 @@ namespace ejercicio4
         // de 10 a 100. Que dsp muestre el que menos recorrio y el que mas recorrio
         
         /*
-         * DEPRACATED: POR SOBRECARGA
+         * DEPRECATED: POR SOBRECARGA
         public void PorTiempo(int minutos)
         {
             int contadorMinutos;

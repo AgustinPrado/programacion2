@@ -45,6 +45,7 @@
             this.txtNumero1.Name = "txtNumero1";
             this.txtNumero1.Size = new System.Drawing.Size(100, 20);
             this.txtNumero1.TabIndex = 0;
+            this.txtNumero1.Text = "0";
             // 
             // txtNumero2
             // 
@@ -52,6 +53,7 @@
             this.txtNumero2.Name = "txtNumero2";
             this.txtNumero2.Size = new System.Drawing.Size(100, 20);
             this.txtNumero2.TabIndex = 1;
+            this.txtNumero2.Text = "0";
             // 
             // txtNumero3
             // 
@@ -59,6 +61,7 @@
             this.txtNumero3.Name = "txtNumero3";
             this.txtNumero3.Size = new System.Drawing.Size(100, 20);
             this.txtNumero3.TabIndex = 2;
+            this.txtNumero3.Text = "0";
             // 
             // btnSumar
             // 

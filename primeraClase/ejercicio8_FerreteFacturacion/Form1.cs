@@ -12,9 +12,6 @@ namespace ejercicio8_FerreteFacturacion
 {
     public partial class Form1 : Form
     {
-        float total;
-        byte contadorElementos;
-
         public Form1()
         {
             InitializeComponent();

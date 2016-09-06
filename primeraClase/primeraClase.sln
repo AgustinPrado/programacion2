@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejercicio7", "ejercicio7\ej
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejercicio8_FerreteFacturacion", "ejercicio8_FerreteFacturacion\ejercicio8_FerreteFacturacion.csproj", "{D345B23F-16D1-4795-802F-053536C687C1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejercicio9_Arrays", "ejercicio9_Arrays\ejercicio9_Arrays.csproj", "{3ACD8A11-4199-4BCE-8BD9-19EB79D81A43}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,10 @@ Global
 		{D345B23F-16D1-4795-802F-053536C687C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D345B23F-16D1-4795-802F-053536C687C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D345B23F-16D1-4795-802F-053536C687C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ACD8A11-4199-4BCE-8BD9-19EB79D81A43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ACD8A11-4199-4BCE-8BD9-19EB79D81A43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ACD8A11-4199-4BCE-8BD9-19EB79D81A43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ACD8A11-4199-4BCE-8BD9-19EB79D81A43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

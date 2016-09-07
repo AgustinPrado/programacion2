@@ -18,6 +18,17 @@ namespace ejercicio4
         private Tiempo TiempoDemorado;
         public static int contadorDeObjetos;
         private static Random randomMarcas; // es unico para esta clase.
+        
+        // un constructor estatico no puede ser public. Se ejecuta en la primer llamada a la clase que haga
+        // tiene que tener atributos estaticos
+        // puedo hacerlo para inicializar variables estaticas, como contador de objetos creados
+        // no se lo puede sobrecargar
+        #region CONSTRUCTORES
+        static Auto()
+        {
+            Auto.contadorDeObjetos = 0;
+            Auto.randomMarcas = new Random();
+        }
 
         public Auto()
         {
@@ -31,16 +42,7 @@ namespace ejercicio4
 
             Auto.contadorDeObjetos++;
         }
-        
-        // un constructor estatico no puede ser public. Se ejecuta en la primer llamada a la clase que haga
-        // tiene que tener atributos estaticos
-        // puedo hacerlo para inicializar variables estaticas, como contador de objetos creados
-        // no se lo puede sobrecargar
-        static Auto()
-        {
-            Auto.contadorDeObjetos = 0;
-            Auto.randomMarcas = new Random();
-        }
+        #endregion
 
         public static bool CompararAuto(Auto auto1, Auto auto2)
         {
@@ -49,9 +51,14 @@ namespace ejercicio4
             return false;
         }
 
-        public void MostrarAuto()
+        public string MostrarAuto()
         {
-            Console.WriteLine("El fabricante es {0}", this.Fabricante);
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine("Fabricante: " + this.Fabricante);
+            sb.AppendLine("Kilometros: " + ((int)this.ObtenerKilometros()).ToString());
+            sb.AppendLine("Tiempo: " + ((int)this.ObtenerTiempo()).ToString());
+            //Console.WriteLine("El fabricante es {0}", this.Fabricante);
+            return sb.ToString();
         }
 
         public void VolverACero()
@@ -60,6 +67,7 @@ namespace ejercicio4
             this.TiempoDemorado = 0;
         }
 
+        #region DEPRECATED: POR SOBRECARGA DE METODOS
         /*
          * DEPRECATED: POR SOBRECARGA DE METODOS
         public void AgregarKilometro(int kilometros)
@@ -72,7 +80,8 @@ namespace ejercicio4
             this.TiempoDemorado += tiempo;
         }
         */
-        
+        #endregion
+
         public Kilometro ObtenerKilometros()
         {
             return this.KilometrosRecorridos;

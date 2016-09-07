@@ -11,6 +11,7 @@ namespace ejercicio4
         public string Marca;
         public float Tamaño;
 
+        #region CONSTRUCTORES
         // el constructor no tiene retorno, no devuelve nada, ni siquiera void
         // tiene que tener el mismo nombre que la clase
         // es el valor que le pone por defecto
@@ -61,6 +62,7 @@ namespace ejercicio4
         {
 
         }
+        #endregion
 
         public void MostrarRueda()
         {

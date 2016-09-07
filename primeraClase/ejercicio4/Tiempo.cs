@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Collections.Generic; 
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,6 +15,7 @@ namespace ejercicio4
             this._cantidad = cantidad;
         }
 
+        #region DEPRECATED por sobrecarga de operador
         /*
         public static Tiempo Sumar(Tiempo tiempoAux, int valor)
         {
@@ -23,7 +24,9 @@ namespace ejercicio4
             return tiempoAux;
         }
          */
+        #endregion
 
+        #region SOBRECARGA DE OPERADORES
         // sobrecargo el operador +
         public static Tiempo operator +(Tiempo tiempoAux, int valor)
         {
@@ -88,7 +91,9 @@ namespace ejercicio4
         {
             return (tiempo1 > tiempo2._cantidad);
         }
+        #endregion
 
+        #region SOBRECARGA DE CASTEO
         public static implicit operator Tiempo(int numero)
         {
             return new Tiempo(numero);
@@ -98,8 +103,8 @@ namespace ejercicio4
         {
             return tiempo._cantidad;
         }
+        #endregion
 
-       
 
     }
 }

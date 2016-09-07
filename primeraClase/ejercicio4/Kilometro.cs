@@ -15,6 +15,7 @@ namespace ejercicio4
             this._cantidad = cantidad;
         }
 
+        #region SOBRECARGA DE OPERADORES
         public static Kilometro operator +(Kilometro kilometroAux, int valor)
         {
             kilometroAux._cantidad = kilometroAux._cantidad + valor;
@@ -78,7 +79,9 @@ namespace ejercicio4
         {
             return (kilometro1 > kilometro2._cantidad);
         }
+        #endregion
 
+        #region SOBRECARGA DE CASTEO
         public static implicit operator Kilometro(int numero)
         {
             return new Kilometro(numero);
@@ -88,5 +91,6 @@ namespace ejercicio4
         {
             return kilometro._cantidad;
         }
+        #endregion
     }
 }

@@ -1,5 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Collections.Generic; // generic de género, no de genérico
+using System.Collections;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,6 +21,24 @@ namespace ejercicio4
             Console.WriteLine(fabricante);
             */
 
+            List<Auto> ListaAuto = new List<Auto>();
+
+            ArrayList ArrayListaAuto = new ArrayList(); // le puedo agregar cualquier cosa. En el foreach va a pinchar si busco por algun tipo de objeto que no tiene
+
+            ArrayListaAuto.Add("Hola");
+            ArrayListaAuto.Add(15);
+
+            Stack<Auto> PilaAuto = new Stack<Auto>();
+
+            Auto AutoAux = PilaAuto.Pop();
+
+            Queue<Auto> ColaAuto = new Queue<Auto>();
+
+            AutoAux = ColaAuto.Dequeue();
+
+            
+
+
             Rueda otraRueda = new Rueda(3);
             Rueda otraRueda2 = new Rueda("RuedaLoca");
             Rueda otraRueda3 = new Rueda("Firestone", 15);
@@ -30,6 +49,11 @@ namespace ejercicio4
             Auto nuevoAuto2 = new Auto();
             Auto nuevoAuto3 = new Auto();
             Auto nuevoAuto4 = new Auto();
+
+            carrera = carrera + nuevoAuto1;
+            carrera = carrera + nuevoAuto2;
+            carrera = carrera + nuevoAuto3;
+            carrera = carrera + nuevoAuto4;
 
             Tiempo tiempo = 5;
             Kilometro kilometro = 9;
@@ -46,7 +70,8 @@ namespace ejercicio4
             // carrera.PorTiempo(5);
 
             carrera.CorrerCarrera(tiempo);
-            
+
+           
             carrera.CorrerCarrera(kilometro);
 
             carrera.CorrerCarrera(tiempo);

@@ -8,34 +8,47 @@ namespace ejercicio4
 {
     public class Carrera
     {
+        #region DEPRECATED por colección
+        /*
         public Auto auto1;
         public Auto auto2;
         public Auto auto3;
         public Auto auto4;
         public Auto auto5;
         public Auto auto6;
+         */
+        #endregion
+        public List<Auto> ListaDeAutos; // como si fuera un array. Colección.
         private static Random random;
 
+        #region CONSTRUCTORES
         public Carrera()
         {
+            #region DEPRECATED por colección
+            /*
             this.auto1 = new Auto();
             this.auto2 = new Auto();
             this.auto3 = new Auto();
             this.auto4 = new Auto();
             this.auto5 = new Auto();
             this.auto6 = new Auto();
-            
+             */
+            #endregion
+            this.ListaDeAutos = new List<Auto>();
         }
 
         static Carrera()
         {
             Carrera.random = new Random();
         }
+        #endregion
 
+        // Consigna
         // ingresar un tiempo en minutos y por cada minuto va a ser una vuelta en un for. Por cada vuelta, los autos tienen
         // que aumentar una cierta cantidad de km random. Cuando termina, hay que ver cual recorrio mas km
         // de 10 a 100. Que dsp muestre el que menos recorrio y el que mas recorrio
-        
+
+        #region DEPRECATED: POR SOBRECARGA
         /*
          * DEPRECATED: POR SOBRECARGA
         public void PorTiempo(int minutos)
@@ -88,7 +101,9 @@ namespace ejercicio4
             this.auto6.VolverACero();
         }
          */
+        #endregion
 
+        #region CorrerCarrera
         public void CorrerCarrera(Tiempo tiempo)
         {
             int contadorMinutos;
@@ -97,14 +112,24 @@ namespace ejercicio4
 
             for (contadorMinutos = 0; contadorMinutos <  (int)tiempo; contadorMinutos++)
             {
+                #region DEPRECATED por colección
+                /*
                 this.auto1.Agregar((Kilometro)random.Next(10, 100));
                 this.auto2.Agregar((Kilometro)random.Next(10, 100));
                 this.auto3.Agregar((Kilometro)random.Next(10, 100));
                 this.auto4.Agregar((Kilometro)random.Next(10, 100));
                 this.auto5.Agregar((Kilometro)random.Next(10, 100));
                 this.auto6.Agregar((Kilometro)random.Next(10, 100));
+                 */
+                #endregion
+                foreach (Auto objAuto in this.ListaDeAutos)
+                {
+                    objAuto.Agregar((Kilometro)random.Next(10, 100));
+                }
             }
-            menor = mayor = auto1;
+            menor = mayor = ListaDeAutos.First();
+            #region DEPRECATED por colección
+            /*
             if ((int)this.auto2.ObtenerKilometros() < (int)menor.ObtenerKilometros())
                 menor = auto2;
             if ((int)this.auto2.ObtenerKilometros() > (int)mayor.ObtenerKilometros())
@@ -125,16 +150,38 @@ namespace ejercicio4
                 menor = auto6;
             if ((int)this.auto6.ObtenerKilometros() > (int)mayor.ObtenerKilometros())
                 mayor = auto6;
+             */
+            #endregion
+
+            foreach (Auto objAuto in this.ListaDeAutos)
+            {
+                if ((int)objAuto.ObtenerKilometros() < (int)menor.ObtenerKilometros())
+                    menor = objAuto;
+                if ((int)objAuto.ObtenerKilometros() > (int)mayor.ObtenerKilometros())
+                    mayor = objAuto;
+            }
+
+            this.MostrarCarrera();
 
             Console.WriteLine("El que más recorrió fue un {0} y la distancia fue {1}", mayor.Fabricante, (int)mayor.ObtenerKilometros());
             Console.WriteLine("El que menos recorrió fue un {0} y la distancia fue {1}", menor.Fabricante, (int)menor.ObtenerKilometros());
+
             
+
+            #region DEPRECATED por colección
+            /*
             this.auto1.VolverACero();
             this.auto2.VolverACero();
             this.auto3.VolverACero();
             this.auto4.VolverACero();
             this.auto5.VolverACero();
             this.auto6.VolverACero();
+             */
+            #endregion
+            foreach (Auto objAuto in this.ListaDeAutos)
+            {
+                objAuto.VolverACero();
+            }
         }
 
         public void CorrerCarrera(Kilometro kilometro)
@@ -144,14 +191,32 @@ namespace ejercicio4
             Auto menor;
             for (contadorKilometros = 0; contadorKilometros < (int)kilometro; contadorKilometros++)
             {
+                #region DEPRECATED por colección
+                /*
                 this.auto1.Agregar((Tiempo)random.Next(10, 100));
                 this.auto2.Agregar((Tiempo)random.Next(10, 100));
                 this.auto3.Agregar((Tiempo)random.Next(10, 100));
                 this.auto4.Agregar((Tiempo)random.Next(10, 100));
                 this.auto5.Agregar((Tiempo)random.Next(10, 100));
                 this.auto6.Agregar((Tiempo)random.Next(10, 100));
+                 */
+                #endregion
+                
+                foreach (Auto objAuto in this.ListaDeAutos)
+                {
+                    objAuto.Agregar((Tiempo)random.Next(10, 100));
+                }
+                 
+                /*
+                for (int i = 0; i < this.ListaDeAutos.Count; i++)
+                {
+                    this.ListaDeAutos[i].Agregar((Tiempo)random.Next(10, 100));
+                }
+                 * */
             }
-            menor = mayor = auto1;
+            menor = mayor = ListaDeAutos.First();
+            #region DEPRECATED por colección
+            /*
             if ((int)this.auto2.ObtenerTiempo() < (int)menor.ObtenerTiempo())
                 menor = auto2;
             if ((int)this.auto2.ObtenerTiempo() > (int)mayor.ObtenerTiempo())
@@ -172,27 +237,73 @@ namespace ejercicio4
                 menor = auto6;
             if ((int)this.auto6.ObtenerTiempo() > (int)mayor.ObtenerTiempo())
                 mayor = auto6;
+              */
+            #endregion
+
+            foreach (Auto objAuto in this.ListaDeAutos)
+            {
+                if ((int)objAuto.ObtenerTiempo() < (int)menor.ObtenerTiempo())
+                    menor = objAuto;
+                if ((int)objAuto.ObtenerTiempo() > (int)mayor.ObtenerTiempo())
+                    mayor = objAuto;
+            }
+
+            this.MostrarCarrera();
 
             Console.WriteLine("El que más tardó fue un {0} y el tiempo fue {1}", mayor.Fabricante, (int)mayor.ObtenerTiempo());
             Console.WriteLine("El que menos tardó fue un {0} y el tiempo fue {1}", menor.Fabricante, (int)menor.ObtenerTiempo());
+
             
+
+            #region DEPRECATED por colección
+            /*
             this.auto1.VolverACero();
             this.auto2.VolverACero();
             this.auto3.VolverACero();
             this.auto4.VolverACero();
             this.auto5.VolverACero();
             this.auto6.VolverACero();
+             */
+            #endregion
+            foreach (Auto objAuto in this.ListaDeAutos)
+            {
+                objAuto.VolverACero();
+            }
         }
-
+        #endregion
 
         public void MostrarCarrera()
         {
+            #region DEPRECATED por colección
+            /*
             this.auto1.MostrarAuto();
             this.auto2.MostrarAuto();
             this.auto3.MostrarAuto();
             this.auto4.MostrarAuto();
             this.auto5.MostrarAuto();
             this.auto6.MostrarAuto();
+             */
+            #endregion
+
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine("Detalle de la carrera");
+
+            foreach (Auto objAuto in this.ListaDeAutos)
+            {
+                sb.AppendLine(objAuto.MostrarAuto());
+            }
+            Console.Write(sb.ToString());
+        }
+
+        private void AgregarAuto(Auto auto)
+        {
+            this.ListaDeAutos.Add(auto);
+        }
+
+        public static Carrera operator +(Carrera carrera, Auto auto)
+        {
+            carrera.AgregarAuto(auto);
+            return carrera;
         }
     }        
 }

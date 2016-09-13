@@ -1,23 +1,25 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejercicio1", "ejercicio1\ejercicio1.csproj", "{1544570E-0AB5-4E9B-BB5C-3080EF7AD5C0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejercicio01", "ejercicio1\ejercicio01.csproj", "{1544570E-0AB5-4E9B-BB5C-3080EF7AD5C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejercicio2", "ejercicio2\ejercicio2.csproj", "{E716CFA6-C674-461D-B9B0-3CEF27947F7F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejercicio02", "ejercicio2\ejercicio02.csproj", "{E716CFA6-C674-461D-B9B0-3CEF27947F7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejercicio3", "ejercicio3\ejercicio3.csproj", "{2ABB02DB-8EE4-4C77-BFCE-3713D17D4E8C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejercicio03", "ejercicio3\ejercicio03.csproj", "{2ABB02DB-8EE4-4C77-BFCE-3713D17D4E8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejercicio4", "ejercicio4\ejercicio4.csproj", "{8CA5A9DF-7CB4-4F78-8FBA-EB6B6F7F21D9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejercicio04_Carrera", "ejercicio4\ejercicio04_Carrera.csproj", "{8CA5A9DF-7CB4-4F78-8FBA-EB6B6F7F21D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejercicio5", "ejercicio5\ejercicio5.csproj", "{7F5F6D74-1EED-4106-AD33-161E8B67F361}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejercicio05", "ejercicio5\ejercicio05.csproj", "{7F5F6D74-1EED-4106-AD33-161E8B67F361}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejercicio6", "ejercicio6\ejercicio6.csproj", "{B8593A63-878B-41A5-9E3A-CB26BF174BE8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejercicio06", "ejercicio6\ejercicio06.csproj", "{B8593A63-878B-41A5-9E3A-CB26BF174BE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejercicio7", "ejercicio7\ejercicio7.csproj", "{D8E7AEE1-F079-4E27-9162-BC14A7614E0F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejercicio07", "ejercicio7\ejercicio07.csproj", "{D8E7AEE1-F079-4E27-9162-BC14A7614E0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejercicio8_FerreteFacturacion", "ejercicio8_FerreteFacturacion\ejercicio8_FerreteFacturacion.csproj", "{D345B23F-16D1-4795-802F-053536C687C1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejercicio08_FerreteFacturacion", "ejercicio8_FerreteFacturacion\ejercicio08_FerreteFacturacion.csproj", "{D345B23F-16D1-4795-802F-053536C687C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejercicio9_Arrays", "ejercicio9_Arrays\ejercicio9_Arrays.csproj", "{3ACD8A11-4199-4BCE-8BD9-19EB79D81A43}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejercicio09_Arrays", "ejercicio9_Arrays\ejercicio09_Arrays.csproj", "{3ACD8A11-4199-4BCE-8BD9-19EB79D81A43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejercicio10_UI", "ejercicio10_UI\ejercicio10_UI.csproj", "{3F3F2D10-ED51-4345-A0C7-319CAA893513}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +63,10 @@ Global
 		{3ACD8A11-4199-4BCE-8BD9-19EB79D81A43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3ACD8A11-4199-4BCE-8BD9-19EB79D81A43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3ACD8A11-4199-4BCE-8BD9-19EB79D81A43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F3F2D10-ED51-4345-A0C7-319CAA893513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F3F2D10-ED51-4345-A0C7-319CAA893513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F3F2D10-ED51-4345-A0C7-319CAA893513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F3F2D10-ED51-4345-A0C7-319CAA893513}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -21,6 +21,8 @@ namespace ejercicio4
             Console.WriteLine(fabricante);
             */
 
+            #region Pilas, colas
+            /*
             List<Auto> ListaAuto = new List<Auto>();
 
             ArrayList ArrayListaAuto = new ArrayList(); // le puedo agregar cualquier cosa. En el foreach va a pinchar si busco por algun tipo de objeto que no tiene
@@ -35,8 +37,8 @@ namespace ejercicio4
             Queue<Auto> ColaAuto = new Queue<Auto>();
 
             AutoAux = ColaAuto.Dequeue();
-
-            
+            */
+            #endregion
 
 
             Rueda otraRueda = new Rueda(3);

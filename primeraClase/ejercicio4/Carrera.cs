@@ -8,6 +8,10 @@ namespace ejercicio4
 {
     public class Carrera
     {
+        private string _nombre;
+        private string _fecha;
+        private string _lugar;
+
         #region DEPRECATED por colección
         /*
         public Auto auto1;
@@ -35,6 +39,13 @@ namespace ejercicio4
              */
             #endregion
             this.ListaDeAutos = new List<Auto>();
+        }
+
+        public Carrera(string Nombre, string Fecha, string Lugar):this()
+        {
+            this._nombre = Nombre;
+            this._fecha = Fecha;
+            this._lugar = Lugar;
         }
 
         static Carrera()
@@ -104,7 +115,7 @@ namespace ejercicio4
         #endregion
 
         #region CorrerCarrera
-        public void CorrerCarrera(Tiempo tiempo)
+        public string CorrerCarrera(Tiempo tiempo)
         {
             int contadorMinutos;
             Auto mayor;
@@ -161,11 +172,12 @@ namespace ejercicio4
                     mayor = objAuto;
             }
 
-            this.MostrarCarrera();
+            //this.MostrarCarrera();
 
+            /*
             Console.WriteLine("El que más recorrió fue un {0} y la distancia fue {1}", mayor.Fabricante, (int)mayor.ObtenerKilometros());
             Console.WriteLine("El que menos recorrió fue un {0} y la distancia fue {1}", menor.Fabricante, (int)menor.ObtenerKilometros());
-
+            */
             
 
             #region DEPRECATED por colección
@@ -182,9 +194,11 @@ namespace ejercicio4
             {
                 objAuto.VolverACero();
             }
+
+            return mayor.DatosEnString;
         }
 
-        public void CorrerCarrera(Kilometro kilometro)
+        public string CorrerCarrera(Kilometro kilometro)
         {
             int contadorKilometros;
             Auto mayor;
@@ -248,11 +262,12 @@ namespace ejercicio4
                     mayor = objAuto;
             }
 
-            this.MostrarCarrera();
+            //this.MostrarCarrera();
 
+            /*
             Console.WriteLine("El que más tardó fue un {0} y el tiempo fue {1}", mayor.Fabricante, (int)mayor.ObtenerTiempo());
             Console.WriteLine("El que menos tardó fue un {0} y el tiempo fue {1}", menor.Fabricante, (int)menor.ObtenerTiempo());
-
+            */
             
 
             #region DEPRECATED por colección
@@ -269,6 +284,8 @@ namespace ejercicio4
             {
                 objAuto.VolverACero();
             }
+
+            return mayor.DatosEnString;
         }
         #endregion
 

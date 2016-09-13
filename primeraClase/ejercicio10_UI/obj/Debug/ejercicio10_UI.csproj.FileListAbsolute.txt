@@ -1,0 +1,11 @@
+D:\Prado\programacion2\primeraClase\ejercicio10_UI\bin\Debug\ejercicio10_UI.exe.config
+D:\Prado\programacion2\primeraClase\ejercicio10_UI\bin\Debug\ejercicio10_UI.exe
+D:\Prado\programacion2\primeraClase\ejercicio10_UI\bin\Debug\ejercicio10_UI.pdb
+D:\Prado\programacion2\primeraClase\ejercicio10_UI\bin\Debug\ejercicio4.exe
+D:\Prado\programacion2\primeraClase\ejercicio10_UI\bin\Debug\ejercicio4.pdb
+D:\Prado\programacion2\primeraClase\ejercicio10_UI\obj\Debug\ejercicio10_UI.csprojResolveAssemblyReference.cache
+D:\Prado\programacion2\primeraClase\ejercicio10_UI\obj\Debug\ejercicio10_UI.Form1.resources
+D:\Prado\programacion2\primeraClase\ejercicio10_UI\obj\Debug\ejercicio10_UI.Properties.Resources.resources
+D:\Prado\programacion2\primeraClase\ejercicio10_UI\obj\Debug\ejercicio10_UI.csproj.GenerateResource.Cache
+D:\Prado\programacion2\primeraClase\ejercicio10_UI\obj\Debug\ejercicio10_UI.exe
+D:\Prado\programacion2\primeraClase\ejercicio10_UI\obj\Debug\ejercicio10_UI.pdb

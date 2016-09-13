@@ -10,10 +10,35 @@ namespace ejercicio4
     {
         // composicion: tiene otras clases dentro, como Rueda.
         public EFabricante Fabricante;
+        
         public Rueda DI;
         public Rueda DD;
         public Rueda TI;
         public Rueda TD;
+        
+        // public Dictionary<string, Rueda> Rueda; AVERIGUAR COMO SE HACE ESTO
+
+        private string _nombrePiloto;
+        public string NombrePiloto // Propiedad. Sirve para ponerle logica.
+        {
+            set
+            {
+                this._nombrePiloto = value;
+            }
+            get
+            {
+                return this._nombrePiloto;
+            }
+        }
+
+        public string DatosEnString
+        {
+            get
+            {
+                return this.RetornarStringParaListado();
+            }
+        }
+
         private Kilometro KilometrosRecorridos;
         private Tiempo TiempoDemorado;
         public static int contadorDeObjetos;
@@ -41,6 +66,12 @@ namespace ejercicio4
             this.TiempoDemorado = 0;
 
             Auto.contadorDeObjetos++;
+        }
+
+        public Auto(string nombrePiloto, EFabricante fabricante):this()
+        {
+            this._nombrePiloto = nombrePiloto;
+            this.Fabricante = fabricante;
         }
         #endregion
 
@@ -100,6 +131,13 @@ namespace ejercicio4
         public void Agregar(Kilometro kilometro)
         {
             this.KilometrosRecorridos = this.KilometrosRecorridos + kilometro;
+        }
+
+        private string RetornarStringParaListado()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine("P: " + this.NombrePiloto + " - F: " + this.Fabricante);
+            return sb.ToString();
         }
     }
 }

@@ -22,6 +22,7 @@ namespace ejercicio10_UI
             this.gpbAutos.Enabled = false;
             this.gpbListadoDeAutos.Enabled = false;
             this.gpbResultado.Enabled = false;
+            this.gpbOrdenar.Enabled = false;
 
             foreach (EFabricante item in Enum.GetValues(typeof(EFabricante)))
             {
@@ -34,6 +35,18 @@ namespace ejercicio10_UI
             this.cmbTipoCarrera.Items.Add("Kilometro");
             this.cmbTipoCarrera.SelectedIndex = 0;
             this.cmbTipoCarrera.DropDownStyle = ComboBoxStyle.DropDownList;
+
+            this.cmbOrdenar.Items.Add("Fabricante");
+            this.cmbOrdenar.Items.Add("Piloto");
+            this.cmbOrdenar.SelectedIndex = 0;
+            this.cmbOrdenar.DropDownStyle = ComboBoxStyle.DropDownList;
+
+            this.radAscendente.Checked = true; //para que empieze ya con uno de los dos rad seleccionados
+
+            // para testing
+            this.txtNombre.Text = "TEST";
+            this.txtFecha.Text = "TEST";
+            this.txtLugar.Text = "TEST";
         }
 
         private void btnCrearCarrera_Click(object sender, EventArgs e)
@@ -57,11 +70,14 @@ namespace ejercicio10_UI
 
             foreach (Auto item in this._carrera.ListaDeAutos)
             {
-                  this.lsbListado.Items.Add(item.DatosEnString);
+                  this.lsbListado.Items.Add(item.DatosEnStringListado);
             }
 
             this.gpbListadoDeAutos.Enabled = true;
             this.gpbResultado.Enabled = true;
+            this.gpbOrdenar.Enabled = true;
+
+            this.txtPiloto.Clear();  
         }
 
         private void btnCorrerCarrera_Click(object sender, EventArgs e)
@@ -78,6 +94,25 @@ namespace ejercicio10_UI
                 this.lblUnidadCarrera.Text = "minutos";
             else
                 this.lblUnidadCarrera.Text = "km";
+        }
+
+        private void btnOrdenar_Click(object sender, EventArgs e)
+        {
+            if (this.cmbOrdenar.SelectedItem.ToString() == "Fabricante")
+            {
+                if (this.radAscendente.Checked)
+                    this._carrera.ListaDeAutos.Sort(Auto.OrdenarPorFabricanteAsc);
+                else
+                    this._carrera.ListaDeAutos.Sort(Auto.OrdenarPorFabricanteDesc);
+            }
+            else
+            {
+                if (this.radAscendente.Checked)
+                    this._carrera.ListaDeAutos.Sort(Auto.OrdenarPorPilotoAsc);
+                else
+                    this._carrera.ListaDeAutos.Sort(Auto.OrdenarPorPilotoDesc);
+            }
+            this.cargarListado();
         }
 
     }

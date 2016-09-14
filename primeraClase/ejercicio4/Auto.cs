@@ -31,13 +31,23 @@ namespace ejercicio4
             }
         }
 
-        public string DatosEnString
+        public string DatosEnStringListado
         {
             get
             {
                 return this.RetornarStringParaListado();
             }
         }
+
+        /*
+        public string DatosEnStringResultado
+        {
+            get
+            {
+                return this.RetornarStringParaResultado();
+            }
+        }
+         * */
 
         private Kilometro KilometrosRecorridos;
         private Tiempo TiempoDemorado;
@@ -138,6 +148,42 @@ namespace ejercicio4
             StringBuilder sb = new StringBuilder();
             sb.AppendLine("P: " + this.NombrePiloto + " - F: " + this.Fabricante);
             return sb.ToString();
+        }
+
+        /*
+        private string RetornarStringParaResultado()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine("P: " + this.NombrePiloto + " - Km Recorridos: " + (int)this.ObtenerKilometros() + "km");
+            return sb.ToString();
+        }
+
+        private string RetornarStringParaResultado()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine("P: " + this.NombrePiloto + " - Tiempo total: " + (int)this.ObtenerTiempo() + "min");
+            return sb.ToString();
+        }
+         * */
+
+        public static int OrdenarPorFabricanteAsc(Auto auto1, Auto auto2)
+        {
+            return String.Compare(auto1.Fabricante.ToString(), auto2.Fabricante.ToString());
+        }
+
+        public static int OrdenarPorFabricanteDesc(Auto auto1, Auto auto2)
+        {
+            return String.Compare(auto2.Fabricante.ToString(), auto1.Fabricante.ToString());
+        }
+
+        public static int OrdenarPorPilotoAsc(Auto auto1, Auto auto2)
+        {
+            return String.Compare(auto1._nombrePiloto, auto2._nombrePiloto);
+        }
+
+        public static int OrdenarPorPilotoDesc(Auto auto1, Auto auto2)
+        {
+            return String.Compare(auto2._nombrePiloto, auto1._nombrePiloto);
         }
     }
 }

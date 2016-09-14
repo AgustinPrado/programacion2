@@ -195,7 +195,7 @@ namespace ejercicio4
                 objAuto.VolverACero();
             }
 
-            return mayor.DatosEnString;
+            return mayor.DatosEnStringListado;
         }
 
         public string CorrerCarrera(Kilometro kilometro)
@@ -285,7 +285,7 @@ namespace ejercicio4
                 objAuto.VolverACero();
             }
 
-            return mayor.DatosEnString;
+            return mayor.DatosEnStringListado;
         }
         #endregion
 
